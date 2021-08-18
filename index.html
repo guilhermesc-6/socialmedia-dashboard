@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Social Media Dashboard</title>
+  </head>
+  <body>
+    <div class="hero"></div>
+    <div class="container">
+      <div class="hero"></div>
+      <header>
+        <div class="tittle">
+          <h1>Social Media Dashboard</h1>
+          <p>Total Followers: 23,004</p>
+        </div>
+
+        <div class="theme-switcher">
+          <span>Dark Mode</span>
+          <input type="checkbox" id="theme" name="theme" />
+          <label for="theme" class="label" id="theme"></label>
+        </div>
+      </header>
+      <!-- dashboard principal -->
+      <section class="dashboard">
+        <article class="top-dash">
+          <div class="card fb">
+            <div class="profile">
+              <span
+                ><img src="./images/icon-facebook.svg" alt="facebook icon"
+              /></span>
+              <span>@nathanf</span>
+            </div>
+            <div class="subs">
+              <span class="number">1987</span>
+              <p>Followers</p>
+            </div>
+            <span class="stats stats-up">12 Today</span>
+          </div>
+          <div class="card tt">
+            <div class="profile">
+              <span
+                ><img src="./images/icon-twitter.svg" alt="Twitter icon"
+              /></span>
+              <span>@nathanf</span>
+            </div>
+            <div class="subs">
+              <span class="number">1044</span>
+              <p>Followers</p>
+            </div>
+            <span class="stats stats-up">99 Today</span>
+          </div>
+          <div class="card ig">
+            <div class="profile">
+              <span
+                ><img src="./images/icon-instagram.svg" alt="Instagram icon"
+              /></span>
+              <span>@realnathanf</span>
+            </div>
+            <div class="subs">
+              <span class="number">11k</span>
+              <p>Followers</p>
+            </div>
+            <span class="stats stats-up">1099 Today</span>
+          </div>
+          <div class="card yt">
+            <div class="profile">
+              <span
+                ><img src="./images/icon-youtube.svg" alt="Youtube icon"
+              /></span>
+              <span>Nathan F.</span>
+            </div>
+            <div class="subs">
+              <span class="number">8239</span>
+              <p>Subscribers</p>
+            </div>
+            <span class="stats stats-down">144 Today</span>
+          </div>
+        </article>
+
+        <!-- dashboard segundario -->
+        <article class="bottom-dash">
+          <h2 class="tittle">Overview - Today</h2>
+          <div class="today-dashboard">
+            <div class="mini-card">
+              <div class="top-info">
+                <p class="card-tittle">Page Views</p>
+                <span class="card-number">87</span>
+              </div>
+              <div class="number-info">
+                <img src="./images/icon-facebook.svg" alt="Facebook icon" />
+                <span class="stats stats-up">3%</span>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="top-info">
+                <p class="card-tittle">Likes</p>
+                <span class="card-number">52</span>
+              </div>
+              <div class="number-info">
+                <img src="./images/icon-facebook.svg" alt="Facebook icon" />
+                <span class="stats stats-down">2%</span>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="top-info">
+                <p class="card-tittle">Likes</p>
+                <span class="card-number">5463</span>
+              </div>
+              <div class="number-info">
+                <img src="./images/icon-instagram.svg" alt="Instagram icon" />
+                <span class="stats stats-up">2257%</span>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="top-info">
+                <p class="card-tittle">Profile Views</p>
+                <span class="card-number">52k</span>
+              </div>
+              <div class="number-info">
+                <img src="./images/icon-instagram.svg" alt="Instagram icon" />
+                <span class="stats stats-up">1375%</span>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="top-info">
+                <p class="card-tittle">Retweets</p>
+                <span class="card-number">117</span>
+              </div>
+              <div class="number-info">
+                <img src="./images/icon-twitter.svg" alt="Twitter icon" />
+                <span class="stats stats-up">303%</span>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="top-info">
+                <p class="card-tittle">Likes</p>
+                <span class="card-number">507</span>
+              </div>
+              <div class="number-info">
+                <img src="./images/icon-twitter.svg" alt="Twitter icon" />
+                <span class="stats stats-up">553%</span>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="top-info">
+                <p class="card-tittle">Likes</p>
+                <span class="card-number">107</span>
+              </div>
+              <div class="number-info">
+                <img src="./images/icon-youtube.svg" alt="Youtube icon" />
+                <span class="stats stats-down">19%</span>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="top-info">
+                <p class="card-tittle">Total Views</p>
+                <span class="card-number">1407</span>
+              </div>
+              <div class="number-info">
+                <img src="./images/icon-youtube.svg" alt="Youtube icon" />
+                <span class="stats stats-down">12%</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/guilhermesc-6/" target="_blank">Guilherme</a
+        >.
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
